@@ -1,13 +1,13 @@
-.app {
-  text-align: center;
-  margin-top: 80px;
-  font-family: 'Arial', sans-serif;
+import React from "react";
+import "./App.css";
+
+function App() {
+  return (
+    <div className="app">
+      <h1>🚀 React App Dockerized with Multi-Stage Build</h1>
+      <p>This React application is containerized using Docker and served via Nginx.</p>
+    </div>
+  );
 }
 
-h1 {
-  color: #0078d7;
-}
-
-p {
-  color: #333;
-}
+export default App;
